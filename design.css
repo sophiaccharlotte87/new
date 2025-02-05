@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/outfit');
+
+*{
+    background-color: silver;
+}
+.sec{
+    display: grid;
+    place-items: center;
+    min-height: 740px;
+}
+
+.container{
+   justify-content: center ;
+   text-align: center;
+   background-color: white;
+   border-radius: 20px 20px;
+   width: 500px;
+   height: 740px;
+   padding: 10px 10px;
+}
+
+.head{
+    background-color: white;
+    text-align: center;
+    font-size: 38px;
+    font-family: Tahoma;
+}
+
+.parah{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: outfit;
+    font-size: 23px;
+
+}
+
+.image{
+    border-radius: 10px 10px;
+    margin: 10px 10px;
+    width: 450px;
+}
